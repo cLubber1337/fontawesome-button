@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: center;
     gap: 12px;
-    background-color: #4bb34b;
-    border: 1px solid #4bb34b;
+    background-color: var(--clr-green-primary);
+    border: 1px solid var(--clr-green-primary);
     color: #fff;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -18,7 +18,7 @@
 }
 
 .uiButton:hover {
-    background-color: #309230FF;
+    background-color: var(--clr-green-primary-hover);
 }
 
 .uiButton:active {
@@ -26,6 +26,6 @@
 }
 
 .uiButton:focus-visible {
-    outline: 3px solid #9bcb9b;
+    outline: 3px solid var(--clr-green-secondary);
     outline-offset: 2px;
 }

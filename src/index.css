@@ -1,3 +1,9 @@
+:root {
+    --clr-green-primary: #4bb34b;
+    --clr-green-primary-hover: #309230FF;;
+    --clr-green-secondary: #9bcb9b;
+}
+
 html {
     box-sizing: border-box;
     font-size: 100%;
