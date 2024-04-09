@@ -15,6 +15,7 @@
     height: 36px;
     min-width: 120px;
     letter-spacing: 1px;
+    user-select: none;
 }
 
 .uiButton:hover {
@@ -28,4 +29,10 @@
 .uiButton:focus-visible {
     outline: 3px solid var(--clr-green-secondary);
     outline-offset: 2px;
+}
+
+
+.uiButton:disabled {
+    pointer-events: none;
+    opacity: 0.5;
 }
