@@ -1,0 +1,31 @@
+.uiButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: #4bb34b;
+    border: 1px solid #4bb34b;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.75rem;
+    transition: 0.2s ease-in-out;
+    transition-property: background-color, transform;
+    height: 36px;
+    min-width: 120px;
+    letter-spacing: 1px;
+}
+
+.uiButton:hover {
+    background-color: #309230FF;
+}
+
+.uiButton:active {
+    transform: translateY(2px);
+}
+
+.uiButton:focus-visible {
+    outline: 3px solid #9bcb9b;
+    outline-offset: 2px;
+}
